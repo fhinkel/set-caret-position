@@ -1,0 +1,23 @@
+{
+  "name": "set-caret-position",
+  "version": "1.0.0",
+  "description": "Set caret to position in input area",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "contributors": [
+    {
+      "name": "Franziska Hinkelmann",
+      "email": "franziska.hinkelmann@gmail.com"
+    },
+    {
+      "name": "Lars Kastner",
+      "email": "kastner@math.fu-berlin.de"
+    },
+    {
+      "name": "Mike Stillman",
+      "email": "mikestillman1@gmail.com"
+    }
+  ],  "license": "MIT"
+}
