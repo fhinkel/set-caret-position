@@ -1,7 +1,7 @@
 {
   "name": "set-caret-position",
   "version": "1.0.0",
-  "description": "Set caret to position in input area",
+  "description": "Move cursor to beginning of line below",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"

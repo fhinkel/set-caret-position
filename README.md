@@ -1,2 +1,2 @@
 #set-caret-position
-Selection or full line of text if nothing selected.
+Move cursor to beginning of line below.
