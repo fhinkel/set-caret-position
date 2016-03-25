@@ -1,14 +1,16 @@
 module.exports = function (inputField, caretPos) {
-    if (inputField.createTextRange) {
-        var range = inputField.createTextRange();
+    var element = document.getElementById(inputField);
+    if (element.createTextRange) {
+        var range = element.createTextRange();
         range.move('character', caretPos);
         range.select();
     } else {
-        if (inputField.selectionStart || inputField.selectionStart === 0) {
-            inputField.focus();
-            inputField.setSelectionRange(caretPos, caretPos);
+        if (element.selectionStart || element.selectionStart === 0) {
+            element.focus();
+            element.setSelectionRange(caretPos, caretPos);
         } else {
-            inputField.focus();
+            element.focus();
         }
     }
 };
+

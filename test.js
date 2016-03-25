@@ -1,5 +1,12 @@
 var setCaretPosition = require('./index.js');
 
+
+document = {
+    getElementById: function() {
+        return element;
+    }
+};
+
 var element = {
     range: {
         move: function () {
